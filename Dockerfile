@@ -33,7 +33,7 @@ RUN apk add --no-cache openvpn easy-rsa bash netcat-openbsd zip dumb-init && \
     cp config/server.conf /etc/openvpn/server.conf
 
 
-EXPOSE 1194/udp
+EXPOSE 1195/tcp
 EXPOSE 8080/tcp
 
 VOLUME [ "/opt/Dockovpn_data" ]
