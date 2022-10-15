@@ -4,6 +4,7 @@
 version: "3"
 services:
     dockovpn:
+        container_name: dockovpntcp
         build: .
         cap_add:
             - NET_ADMIN
